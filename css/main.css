@@ -87,6 +87,246 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*----------------Base Header - Footer styles--------------*/
+
+   header,
+   footer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   /* Header styles */
+
+   header .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+
+   }
+
+   header figure {
+
+   }
+
+   .header-divider {
+  
+
+   }
+   header nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   header nav ul {
+     display:flex;
+     justify-content: space-around;
+   }
+
+   /* Footer styles */
+
+   footer .content-wrapper {
+
+  }
+  
+  .footer-content {
+  
+  }
+  
+  .contact {
+  
+  }
+  .social {
+  }
+  
+  footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+  
+  }
+  footer .social p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright {
+  
+  
+  }
+
+
+
+/*----------------Mobile styles - Homepage--------------*/
+
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-area h2 {
+
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+aside .content-wrapper {
+
+  
+
+}
+
+.form-description {
+
+
+}
+
+.form {
+
+
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.features .content-wrapper {
+
+}
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.fontawsome-icon {
+
+}
+.features-item-description {
+
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.reviews .content-wrapper {
+
+
+}
+
+img {
+
+}
+.content-review {
+
+}
+
+
+
+/*-------------Mobile style About page----------*/
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.mission .content-wrapper {
+
+}
+
+.mission-content {
+
+}
+
+.map {
+
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.contact-section .content-wrapper {
+
+}
+.contact-content {
+
+}
+
+/*-------------Mobile style FAQ page------------*/
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+.faq .content-wrapper {
+  display: flex;
+  align-content: center;
+  flex-flow: row wrap;
+
+}
+.faq-content {
+  
+}
+
+/*------------- footer--------------- */
+
+footer .content-wrapper {
+
+}
+
+.footer-content {
+
+
+}
+
+.contact {
+
+
+}
+.social {
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+ 
+
+}
+footer .social p {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+.copyright {
+
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
