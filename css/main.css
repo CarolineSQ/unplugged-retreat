@@ -504,6 +504,24 @@ img {
     width: 49%;
   }
 
+  /* Footer */
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .contact {
+    margin-bottom: 0;
+  }
+  footer .copyright {
+    width: 100%;
+  }
+
   /*=========ABOUT===========*/
 
   .mission-content {
@@ -527,6 +545,10 @@ img {
 
   /*=======FAQ PAGE========*/
 
+  header {
+    padding: 15px 0;
+  }
+
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -538,23 +560,7 @@ img {
     width: 100%;
   }
 
-  /* Footer */
-  footer .content-wrapper {
-    width: 65%;
-    margin: 100px 0;
-  }
-
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  footer .contact {
-    margin-bottom: 0;
-  }
-  footer .copyright {
-    width: 100%;
-  }
+  
 }
 
 @media only screen and (min-width: 1200px) {
@@ -565,16 +571,11 @@ img {
     max-width: 960px;
    }
 
-   /* Header */
-   header {
-   padding-bottom: 28px;
-   }
-
    /* Home Page */
 
    /* Hero */
    .hero-area h1 {
-     width: 70%;
+     width: 60%;
    }
 
    /* Aside */
@@ -586,13 +587,13 @@ img {
 
    aside .content-wrapper .form-description,
    aside .content-wrapper .form {
-     width: 33%;
+     width: 30%;
    }
 
    /* Features */
 
    .features h2 {
-     width: 91%;
+     width: 90%;
    }
    .features article {
      flex-basis: 33%;
@@ -600,7 +601,7 @@ img {
 
    /* Reviews */
    .reviews article div {
-     width: 48%;
+     width: 42%;
    }
 
    /*=================
@@ -608,7 +609,7 @@ img {
 
    .mission h2,
    .contact-section .content-wrapper h2 {
-     width: 90%;
+     width: 95%;
    }
 
    /*================ FAQ Page ==================*/
