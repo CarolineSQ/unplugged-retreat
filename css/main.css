@@ -98,13 +98,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul,
 ol {
   list-style-type: none;
-
-
 }
 
 a {
@@ -115,6 +114,8 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
+  
 }
 
 h3,
@@ -122,6 +123,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   margin: 20px 0;
+  font-weight: 500;
 }
 
 p {
@@ -141,8 +143,6 @@ figure {
 
 address {
   font-style: normal;
-
-
 }
 
 
@@ -160,12 +160,14 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #282728;
 }
 
 /* Header styles */
 
 header {
   padding: 15px 0;
+  
 }
 
 header .content-wrapper {
@@ -181,6 +183,7 @@ header figure {
 }
 
 .header-divider {
+  background: #3a3a3a; 
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -192,18 +195,26 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
-  display:flex;
+  display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 /* Footer styles */
 
 footer {
   flex-direction: column;
+  text-align: center;
 }
 
 footer p {
@@ -221,6 +232,7 @@ footer .content-wrapper {
 
 footer .contact {
   margin-bottom: 50px;
+  
 }
   
 footer .social-icons {
@@ -251,6 +263,13 @@ footer .copyright {
   align-items: row wrap;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 /* Aside */
 
 aside {
@@ -258,6 +277,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 aside .content-wrapper {
 
@@ -265,12 +285,35 @@ aside .content-wrapper {
 
 }
 
-.form-description {
+aside .form-description {
+
 
 }
 
-.form {
-
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -301,6 +344,7 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -316,6 +360,7 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 .reviews .content-wrapper {
 }
@@ -328,6 +373,7 @@ img {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 .reviews h3 {
   width: 50%;
@@ -343,7 +389,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  background-color: #527158;
 }
 
 .mission .content-wrapper {
@@ -362,7 +408,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  background-color: #2a423a;
 }
 
 .contact-section .content-wrapper {
@@ -379,6 +425,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 
 }
 .faq .content-wrapper {
@@ -392,9 +439,14 @@ img {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 .faq-content {
   margin-bottom: 50px;  
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 /*
@@ -495,6 +547,17 @@ img {
     margin: 100px 0;
   }
 
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+}
+
+
   /* Header */
 
   header {
@@ -505,6 +568,10 @@ img {
   header .content-wrapper {
     justify-content: space-between;
     width: 100%
+  }
+
+  header figure {
+    width: 30%;
   }
   
   header nav {
@@ -524,6 +591,12 @@ img {
 
   /* Hero Area */
 
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+}
+
   /* Aside */
 
   aside .content-wrapper {
@@ -541,6 +614,10 @@ img {
 
   /* Features */
 
+  .features h2 {
+    margin-bottom: 20px;
+  }
+
   .features article {
     display: flex;
     justify-content:center;
@@ -550,18 +627,25 @@ img {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
   /* Reviews */
   .reviews article {
     display:flex;
     justify-content: space-between;
+  }
 
+  .reviews h2 {
+    width: 85%;
   }
   .reviews article div {
     width: 49%;
   }
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
+}
 
   /* Footer */
   footer .content-wrapper {
@@ -573,10 +657,22 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
   }
   footer .contact {
     margin-bottom: 0;
   }
+
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+    line-height: 1.285;
+}
+
+
   footer .copyright {
     width: 100%;
   }
@@ -587,6 +683,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
   }
 
   .mission-content p {
@@ -602,11 +699,12 @@ img {
     align-items: flex-start;
   }
 
+  .contact-content h4 {
+    font-size: 1.5em;
+  }
+
   /*=======FAQ PAGE========*/
 
-  header {
-    padding: 15px 0;
-  }
 
   .faq .content-wrapper {
     justify-content: space-between;
@@ -618,22 +716,45 @@ img {
   .faq h2 {
     width: 100%;
   }
+  .faq h4,
+  .faq p {
+      font-size: .875em;
+      line-height: 1.125;
+  }
 
   
 }
 
 @media only screen and (min-width: 1200px) {
-  /*Desktop styles here*/
 
-   /* General styles */
+   /* Desktop styles here */
+
+   header {
+    padding: 15px 0;
+  }
    .content-wrapper {
     max-width: 960px;
    }
+
+   h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+      font-size: 1.875em;
+  }
+
+  p {
+      font-size: 1.125em;
+      line-height: 1.333;
+  }
 
    /* Home Page */
 
    /* Hero */
    .hero-area h1 {
+    font-size: 3.75em;
      width: 60%;
    }
 
@@ -649,6 +770,10 @@ img {
      width: 30%;
    }
 
+   .form-description p {
+     font-size: 1.125em;
+   }
+
    /* Features */
 
    .features h2 {
@@ -659,9 +784,17 @@ img {
    }
 
    /* Reviews */
+
+   .reviews h2 {
+    padding-bottom: 50px; 
+  }
    .reviews article div {
      width: 42%;
    }
+
+   footer h4 {
+    font-size: 1.875em;
+  }
 
    /*=================
    ======== About Page ============ */
@@ -669,14 +802,30 @@ img {
    .mission h2,
    .contact-section .content-wrapper h2 {
      width: 95%;
+     font-size: 3em;
    }
+
+   .contact-content h4 {
+    font-size: 1.875em;
+  }
 
    /*================ FAQ Page ==================*/
    .faq h2 {
      width: 100%;
+     font-size: 3em;
    }
-
+   .faq h4,
+  .faq p {
+      font-size: 1.125em;
+      line-height: 1;
+  }
 }
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
