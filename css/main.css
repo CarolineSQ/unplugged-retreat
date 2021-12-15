@@ -132,13 +132,11 @@ p {
 }
 
 img {
-
-
+  width: 100%;
 }
 
 figure {
-
-
+  margin: 0;
 }
 
 address {
@@ -179,7 +177,11 @@ header .content-wrapper {
 }
 
 header figure {
-     
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;    
 }
 
 .header-divider {
@@ -260,7 +262,12 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: row wrap;
+  flex-flow: row wrap;
+  background: url('../img/womanonbridge.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
+}
+.hero-area .content-wrapper {
 }
 
 .hero-area h1 {
@@ -268,6 +275,8 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  
+  
 }
 
 /* Aside */
@@ -319,6 +328,8 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/groupcamping.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -334,9 +345,6 @@ input[type=button] {
   margin: 30px 0;
 }
 
-.features .content-wrapper {
-
-}
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -365,8 +373,6 @@ input[type=button] {
 .reviews .content-wrapper {
 }
 
-img {
-}
 
 .content-review {
 }
@@ -376,7 +382,7 @@ img {
   line-height: 1;
 }
 .reviews h3 {
-  width: 50%;
+  width: 55%;
   margin: 20px 0;
 }
 
@@ -567,7 +573,7 @@ h3 {
   }
   header .content-wrapper {
     justify-content: space-between;
-    width: 100%
+    width: 100%;
   }
 
   header figure {
@@ -590,6 +596,10 @@ h3 {
   /*===========HOME PAGE============*/
 
   /* Hero Area */
+
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1 {
     font-size: 3em;
@@ -639,9 +649,13 @@ h3 {
   .reviews h2 {
     width: 85%;
   }
+ 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
+
+  
   .reviews h3 {
     width: 75%;
     margin: 0;
@@ -755,7 +769,7 @@ h3 {
    /* Hero */
    .hero-area h1 {
     font-size: 3.75em;
-     width: 60%;
+     width: 80%;
    }
 
    /* Aside */
