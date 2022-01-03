@@ -719,6 +719,10 @@ h3 {
     width: 80%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .contact-content {
     display: flex;
     justify-content:space-between;
@@ -830,6 +834,10 @@ h3 {
      width: 95%;
      font-size: 3em;
    }
+
+   .map figure {
+    padding-bottom: 37.5%;
+  }
 
    .contact-content h4 {
     font-size: 1.875em;
