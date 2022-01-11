@@ -206,6 +206,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding-inline-start: 0px;
 }
 
 header nav ul li {
